@@ -209,10 +209,10 @@ ul{
 
 .footer{
     height: 40px;
-    background: linear-gradient(#F6F390, #D5D533);
-    background: -webkit-linear-gradient(#F6F390, #D5D533);
-    background: -o-linear-gradient(#F6F390, #D5D533);
-    background: -moz-linear-gradient(#F6F390, #D5D533);
+    background: linear-gradient(rgb(199, 243, 127), #D5D533);
+    background: -webkit-linear-gradient(rgb(199, 243, 127), #D5D533);
+    background: -o-linear-gradient(rgb(199, 243, 127), #D5D533);
+    background: -moz-linear-gradient(rgb(199, 243, 127), #D5D533);
     padding: 10px 30px 25px 30px;
     margin-top: 15px;
 }
