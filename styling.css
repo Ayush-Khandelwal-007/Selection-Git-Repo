@@ -1,6 +1,7 @@
 /*styling.css*/
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 body{
     font: Arial, Helvetica, sans-serif;
     background-color: rgb(245, 246, 161);
@@ -29,6 +30,7 @@ h1 a{
     font-weight: 100;
     color: #861BBF;
     text-decoration: none;
+    font-family:'Girassol', cursive;
 }
 
 #searchBox{
@@ -81,6 +83,7 @@ h1 a{
 }
 ul{
     list-style: none;   
+    font-family: 'Indie Flower', cursive;
 }
 
 #menu ul li{
