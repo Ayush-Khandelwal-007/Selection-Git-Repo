@@ -1,4 +1,6 @@
 /*styling.css*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
 body{
     font: Arial, Helvetica, sans-serif;
     background-color: rgb(245, 246, 161);
@@ -6,7 +8,6 @@ body{
     flex-direction: row;
     float: initial;
 }
-
 #container {
     width: 1050px;
 /*    border: 1px solid grey;*/
@@ -89,6 +90,7 @@ ul{
     border-right: 1px solid #5d12e7;
     flex-wrap: inherit;
     align-items: center;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 #menu ul li:last-child{
@@ -136,13 +138,13 @@ ul{
 
 #introduction p{
     font-size: 25px; 
+    font-family: 'Titillium Web', sans-serif;
     color: #628F19;
     text-align: justify;
 }
 
 .Mythb{
     font-size:25px;
-    font-family: serif;
     color: rgb(44, 120, 219);
 }
 
@@ -161,13 +163,14 @@ ul{
 .sidebar h3{
     color: rgb(238, 28, 185);
     font-size: 30px;
+    font-family: 'Girassol', cursive;
 }
 
 .sidebar ul{
     padding-top: 8px;   
 }
 #leftsidebar ul li{
-    padding: 4px 0 4px 10px;
+    padding: 4px 0 4px 8px;
     list-style-image: url(images/arrow.png);
 }
 
