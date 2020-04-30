@@ -323,7 +323,7 @@ iframe{
 }
 
 #pg{
-    zoom: 4;
+    zoom: 2.4;
     transform: scale(1.);
     transform-origin: 20 0;
     height:100% ;
@@ -333,7 +333,6 @@ iframe{
 button{
     position: relative;
     left: 40%;
-    bottom: 20%;
 }
 
 .form h3{
@@ -376,7 +375,7 @@ label{
     .message p{
         width: 200px;
         height: auto;
-        min-height: 40px;
+        min-height: 110px;
         background-color: white;
         position: relative;
         top:10%;
