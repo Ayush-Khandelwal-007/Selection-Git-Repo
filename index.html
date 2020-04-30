@@ -6,11 +6,11 @@
         <title>COVID-19</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
         <link rel="stylesheet" href="styling.css">
-
+        <script type="text/javascript" src="code.js"></script>
 
     </head>
     
-    <body>
+    <body onload="pageReady()"> 
         <div id="container">
             <div id="header">
                 <div id="head">
@@ -71,7 +71,7 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/P8b8cDUBYs8?start=59" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
-            <div class="clear"></div>
+            <div id="haha"><h2>A fast precautionary test</h2></div>
             <div class="test">
                 <div class="form">
                     <h3>Choose the approproiate options.</h3>
@@ -84,11 +84,12 @@
                     <input type="checkbox"  id="7" ><label for="7">Any Heart disease </label><br>
                     <input type="checkbox"  id="8" ><label for="8">Had contact with any Covid-19 Patient </label><br>
                     <input type="checkbox"  id="9" ><label for="9">Age &lt;13 or >35</label><br>
-                    <button>Check</button>
+                    
+                    <button id="bt">Check</button>
                 </div>
                 <div class="visuals">
                         <iframe src="try.html"  id="pg"></iframe>
-                    <div class="message">
+                    <div class="message" id="mess">
                         <p>Check yourself</p>
                     </div>
                 </div>
